@@ -1,0 +1,11 @@
+
+a= int(input ("Enter First Number  : "))
+b= int(input ("Enter Second Number : "))
+
+#perform addition,subtraction,multiplicatin and divsion as integer
+
+print("Addition       : ",a+b)
+print("Subtraction    : ",a-b)
+print("Multiplication : ",a*b)
+print("Division       : ",a/b)
+
