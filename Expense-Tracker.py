@@ -3,7 +3,7 @@ def add_expense():
     examt=input('Enter the Expense amount : ')
     exdate=input('Enter the Expense Date as DD/MM/YY: ')
     f=open('expense.txt',"a")
-    f.write(f"{exhead},{examt},{exdate},\n")
+    f.write(f"{exhead},{examt},{exdate},end=\n")
 
 def view_expense():
     print('Ex.Head          Ex.Amount         Ex.Date')
@@ -35,4 +35,5 @@ try:
 except ValueError:
     print('Thank you for using our Expense Tracking Application')
     quit()
+
 
